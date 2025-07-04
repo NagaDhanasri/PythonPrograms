@@ -1,0 +1,7 @@
+def hrec(n):
+    if n==0:
+        return
+    print(n)
+    return hrec(n-1)
+num=int(input("enter the value : "))
+hrec(num)
