@@ -1,0 +1,7 @@
+class op:
+    @staticmethod
+    def add(a,b):
+        return a+b
+x=int(input("enter a value : "))
+y=int(input("enter a value : "))
+print("sum : ",op.add(x,y))
